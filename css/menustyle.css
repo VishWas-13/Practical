@@ -1,0 +1,29 @@
+body{
+    background-image: url("images/colorpencil.jpg");
+    background-size: cover;
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    color: orange;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    margin-left: 90px;
+    color: aliceblue;
+}

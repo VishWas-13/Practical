@@ -1,0 +1,43 @@
+table{
+    margin-top: 100px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    height: 60px;
+    border-collapse: collapse;
+  }
+
+  h1{
+      text-align: center;
+      color: cadetblue;
+      font-weight: bolder;
+      font-size: 70px;
+      text-decoration: underline;
+  }
+
+  p{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding: 40px;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding-right: 400px;
+  }
+
+  #img1{
+    margin-top: -250px;
+      height: 200px;
+      float: right;
+  }
+
+  #p2{
+      margin-top: 100px;
+      margin-left: 460px;
+      padding: 30px;
+  }
+
+  #img2{
+    margin-top: -180px;
+    height: 200px;
+    float: left;
+  }

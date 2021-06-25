@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options after BCA</title>
+    <script src='js/script.js'></script>
+</head>
+<body>
+    <h1 style="text-align: center;">Survey form</h1>
+    <form action="Delhi.html">
+        <label >Name:<br>
+            <input type="text" name="name" placeholder="Your Name"><br>
+        </label>
+        <p>Please select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <label>Please enter your contact no.: <br>
+            <input type="text" placeholder="XXXXXXXXXX">
+        </label><br><br>
+
+        <label for="ratings">Rate our site: </label>
+
+        <select name="ratings" id="ratings">
+            <option value="Amazing">Amazing</option>
+            <option value="Nice">Nice</option>
+            <option value="Bad">Bad</option>
+            <option value="average">Average</option>
+        </select>
+        <br>
+
+        <label>What are you planning to do after BCA...
+            <input type="textarea">
+        </label>
+        <br>
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+        <input onmouseover="hoverEffect(this)" onmouseout="noHoverEffect(this)" id='submitButton' type="submit" value="Submit" onclick="confi()">
+      </form>
+</body>
+</html>
